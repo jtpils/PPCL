@@ -3,6 +3,13 @@
 Base PCL python library for deep learning, which DINK needs.
 
 Already supported PointCloud_PointXYZI, PointCloud_PointXYZRGB, PointCloud_PointXYZRGBA ApproximateVoxelGrid.
+[example](https://github.com/FPAI/PPCL/blob/master/examples/tests/test_filters.py)
+
+
+Already supported PointCloud_PointXYZI, PointCloud_PointXYZRGB cluster.
+[example](https://github.com/FPAI/PPCL/blob/master/examples/official/Segmentation/cluster_extraction_XYZI.py)
+
+
 
 ![PCL](pcl_logo.png)
 
