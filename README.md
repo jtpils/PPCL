@@ -85,7 +85,7 @@ sudo make -j2 install
 ```bash
 git clone https://github.com/FPAI/PPCL
 
-cd PPCL-master
+cd PPCL
 
 sudo python3 setup.py build_ext -i&&sudo python3 setup.py install
 
