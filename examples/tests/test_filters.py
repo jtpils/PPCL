@@ -45,14 +45,13 @@ class TestApproximateVoxelGrid(unittest.TestCase):
         self.fil = self.p.make_ApproximateVoxelGrid()
 
         self.p2 = pcl.PointCloud_PointXYZI()
-        self.fil2 = self.p2.make_ApproximateVoxelGrid_PointXYZI()
+        self.fil2 = self.p2.make_ApproximateVoxelGrid()
 
-        # self.p3 = pcl.PointCloud_PointXYZRGB()
         self.p3 = pcl.PointCloud_PointXYZRGB()
         self.fil3 = self.p3.make_ApproximateVoxelGrid()
 
         self.p4 = pcl.PointCloud_PointXYZRGBA()
-        self.fil4 = self.p4.make_ApproximateVoxelGrid_PointXYZRGBA()
+        self.fil4 = self.p4.make_ApproximateVoxelGrid()
 
 
     def test_VoxelGrid(self):
