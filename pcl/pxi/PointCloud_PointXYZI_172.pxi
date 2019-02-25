@@ -401,7 +401,7 @@ cdef class PointCloud_PointXYZI:
     # PPCL
     # PPCL
     # PPCL
-    def make_ApproximateVoxelGrid_PointXYZI(self):
+    def make_ApproximateVoxelGrid(self):
         """
         Return a pcl.ApproximateVoxelGrid object with this object set as the input-cloud PointXYZI
         """
