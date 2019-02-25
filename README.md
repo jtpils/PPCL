@@ -46,7 +46,7 @@ sudo apt-get install mono-complete
 
 sudo apt-get install qt-sdk openjdk-8-jdk openjdk-8-jre 
 
-(sudo apt-get install libproj-dev)
+sudo apt-get install cython
 ```
 
 
@@ -87,9 +87,9 @@ git clone https://github.com/FPAI/PPCL
 
 cd PPCL
 
-sudo python3 setup.py build_ext -i&&sudo python3 setup.py install
+pip3 install cython&&sudo python3 setup.py build_ext -i&&sudo python3 setup.py install
 
-(sudo python setup.py build_ext -i&&sudo python setup.py install)
+(pip install cython&&sudo python setup.py build_ext -i&&sudo python setup.py install)
 ```
 
 ## 5 Validation
