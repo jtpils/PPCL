@@ -50,7 +50,7 @@ sudo apt-get install qt-sdk openjdk-8-jdk openjdk-8-jre
 ```
 
 
-## 2 Install libpcl-dev
+## (2 Install PCL)
 
 
 ```bash
@@ -60,9 +60,6 @@ sudo apt-get update
 
 sudo apt-get install libpcl-dev
 ```
-
-
-## 3 Install PCL
 
 ```bash
 wget https://github.com/PointCloudLibrary/pcl/archive/pcl-1.9.1.tar.gz
@@ -80,7 +77,7 @@ make -j2
 sudo make -j2 install
 ```
 
-## 4 Install PPCL
+## 3 Install PPCL
 
 ```bash
 git clone https://github.com/FPAI/PPCL
@@ -92,7 +89,7 @@ pip3 install cython&&sudo python3 setup.py build_ext -i&&sudo python3 setup.py i
 (pip install cython&&sudo python setup.py build_ext -i&&sudo python setup.py install)
 ```
 
-## 5 Validation
+## 4 Validation
 
 ```bash
 python
@@ -101,7 +98,7 @@ import pcl
 
 ```
 
-## 6 Test
+## 5 Test
 
 
 examples/tests/test_filters.py
