@@ -20,6 +20,8 @@ Already supported PointCloud_PointXYZI, PointCloud_PointXYZRGB cluster.
 ```bash
 sudo apt-get update 
 
+sudo apt-get install cython
+
 sudo apt-get install git build-essential linux-libc-dev 
 
 sudo apt-get install cmake cmake-gui 
@@ -34,7 +36,7 @@ sudo apt-get install libeigen3-dev
 
 sudo apt-get install libboost-all-dev 
 
-sudo apt-get install libvtk5.10-qt4 libvtk5.10 libvtk5-dev 
+(sudo apt-get install libvtk5.10-qt4 libvtk5.10 libvtk5-dev) 
 
 sudo apt-get install libqhull* libgtest-dev 
 
@@ -45,8 +47,6 @@ sudo apt-get install libxmu-dev libxi-dev
 sudo apt-get install mono-complete 
 
 sudo apt-get install qt-sdk openjdk-8-jdk openjdk-8-jre 
-
-sudo apt-get install cython
 ```
 
 
